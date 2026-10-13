@@ -1,0 +1,53 @@
+/**
+ * Curated dog profile database for the TinDog Match Deck simulator.
+ */
+export const DOG_PROFILES = [
+  {
+    id: 'dog-1',
+    name: 'Barnaby',
+    breed: 'Golden Retriever',
+    age: '2 yrs old',
+    distance: '1.2 miles away',
+    bio: '90% fluff, 10% goofy. Certified good boy who loves tennis balls, park zoomies, and lake dips.',
+    tags: ['Water Dog', 'Friendly', 'Ball Obsessed', 'Vaxxed'],
+    image: 'images/golden.jpg',
+    matchChance: 0.9,
+    verified: true,
+  },
+  {
+    id: 'dog-2',
+    name: 'Winston',
+    breed: 'French Bulldog',
+    age: '4 yrs old',
+    distance: '0.8 miles away',
+    bio: 'Distinguished gentleman in a bowtie. Snorts when excited, sleeps 16 hours a day, loves gourmet snacks.',
+    tags: ['Chill', 'Foodie', 'Apartment Friendly', 'Bowtie Connoisseur'],
+    image: 'images/frenchie.jpg',
+    matchChance: 0.85,
+    verified: true,
+  },
+  {
+    id: 'dog-3',
+    name: 'Luna',
+    breed: 'Siberian Husky',
+    age: '2.5 yrs old',
+    distance: '2.5 miles away',
+    bio: 'Will sing you the opera song of my people at 3 AM. Dramatic, fast, fiercely loyal, and snow-obsessed.',
+    tags: ['Vocal Singer', 'Adventurous', 'Snow Lover', 'Drama Queen'],
+    image: 'images/husky.jpg',
+    matchChance: 0.95,
+    verified: true,
+  },
+  {
+    id: 'dog-4',
+    name: 'Pebbles',
+    breed: 'Pembroke Welsh Corgi',
+    age: '3 yrs old',
+    distance: '3.1 miles away',
+    bio: 'Short legs, giant heart. Elite stick retriever and professional belly rub connoisseur. Looking for park buddies.',
+    tags: ['Sploot Expert', 'Herder', 'Cuddly', 'Royal Descent'],
+    image: 'images/dog-img.jpg',
+    matchChance: 0.88,
+    verified: true,
+  },
+];
